@@ -8,22 +8,25 @@
   <title>Commons &amp; Soons</title>
   <link rel="stylesheet" href="css/materialize.min.css">
   <link rel="stylesheet" href="css/wireframe-theme.min.css">
-  <script>document.createElement( "picture" );</script>
-  <script class="picturefill" async="async" src="js/picturefill.min.js"></script>
+  <!-- <script>document.createElement( "picture" );</script> -->
+  <!-- <script class="picturefill" async="async" src="js/picturefill.min.js"></script> -->
   <link rel="stylesheet" href="css/main.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
 </head>
 
 <body class="body-1 no-js">
   <div class="container-grid bg-full-screen-container">
-
+    <video class="full-screen-video" autoplay="" loop="loop" muted="" poster="./images/video-poster.jpg?cache=1631611447892">
+      <source src="./videos/fripp_video.mp4" type="video/mp4">
+    </video>
   </div>
   <div class="container-grid container-hero">
-    <div class="container-grid statement-region" style="position: relative;" id="commons_and_sons">
-      <video src="./videos/taylor.mp4" class="full-height-video"></video>
-      <div class="container-grid nav-region">
-        <a class="link-text nav-link" href="#commons_and_sons" data-scroll="">Fripp Island Beach Home Rental</a>
+    <div class="container-grid statement-region " style="position: relative;" id="commons_and_sons">
+      <div class="container-grid nav-region on-view ">
+        <a class="link-text nav-link" data-scroll="">Fripp Island Beach Home Rental</a>
       </div>
-      <div class="container-grid hero-text-wrapper"><h1 class="brand-name">650 New Haven Ct</h1>
+      <div class="container-grid hero-text-wrapper on-view "><h1 class="brand-name">650 New Haven Ct</h1>
         <div class="container-grid sd-three-cols container-1">
           <div class="container-grid sd-two-cols container-3">
             <h3 class="heading-1">4</h3>
@@ -39,7 +42,7 @@
   </div>
   <div class="container-grid intro-background" id="beach-breaker"></div>
   <div class="container-grid container-slide-photo">
-    <h2 class="heading-yellow-section">The House</h2>
+    <h2 class="heading-yellow-section on-view ">The House</h2>
     <div class="container-grid carousel carousel-fullwidth carousel-slider"><a href="#!" class="responsive-picture carousel-item full-width-item">
         <picture>
           <img alt="Placeholder Picture" width="1600" height="1067" src="./images/07.jpg">
