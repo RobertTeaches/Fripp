@@ -13,9 +13,24 @@
   <link rel="stylesheet" href="css/main.css">
   <script src="./js/jquery.min.js"></script>
   <script src="./js/main.js"></script>
+  <script src="./js/color-picker.js"></script>
 </head>
 
 <body class="body-1 no-js">
+  <div class="color-picker">
+    <label for="primary">Primary</label>
+    <input type="color" name="primary" id="primary-color" oninput="colorUpdate(this)">
+    <label for="off">Off</label>
+    <input type="color" name="off" id="off-color"oninput="colorUpdate(this)">
+    <label for="accent">Accent</label>
+    <input type="color" name="accent" id="accent-color" oninput="colorUpdate(this)">
+    <label for="oppsite">Background</label>
+    <input type="color" name="oppsite" id="background-color"oninput="colorUpdate(this)">
+    <label for="opposite-off">Off Background</label>
+    <input type="color" name="opposite-off" id="off-background-color"oninput="colorUpdate(this)">
+
+    <button onclick="saveColors()">Save</button>
+  </div>
   <div class="container-grid bg-full-screen-container">
     <video class="full-screen-video" autoplay="" loop="loop" muted="" poster="./images/video-poster.jpg?cache=1631611447892">
       <source src="./videos/fripp_video.mp4" type="video/mp4">
@@ -136,7 +151,7 @@
           <img alt="Placeholder Picture" width="1600" height="1067" src="./images/01.jpg">
         </picture>
       </div>
-      <p class="paragraph history-paragraph-big">Fripp is a cool island with cool stuff lorem lipsum golf nolf&nbsp;</p>
+      <p class="paragraph history-paragraph big">Fripp is a cool island with cool stuff lorem lipsum golf nolf&nbsp;</p>
       <p class="paragraph paragraph-member">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore</p>
     </div>
   </div>
