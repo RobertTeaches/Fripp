@@ -1,13 +1,27 @@
 
 :root {
-  --primary-color: #fffba3;
-  --accent-color: #704900;
-  --off-color: #a7af32;
-  --background-color: #ffffff;
-  --off-background-color: #f9fad4;
+  --primary-color:#eee3df;
+  --off-color:#eed7c5;
+  --accent-color:#e84855;
+  --background-color:#191716;
+  --off-background-color:#b56b45;
+  
 }
 p{
   color:var(--primary-color)
+}
+
+button{
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 1px black;
+}
+
+button.book{
+  font-size: 2em;
+  padding: .75em 1.5em;
+  color: var(--primary-color)
 }
 
 p.big{
@@ -18,6 +32,10 @@ p.big{
 
 h1{
   color: var(--off-color);
+  text-shadow: -1px 1px 3px #000, 
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
 }
 
 h1.brand-name {
@@ -26,6 +44,14 @@ h1.brand-name {
   font-size: 26px;
   font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
   line-height: 36px;
+}
+
+h2{
+  color: var(--accent-color);
+  text-shadow: -1px 1px 3px #000, 
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
 }
 
 h2.heading-yellow-section {
@@ -59,11 +85,17 @@ h2.heading-2 {
   color: var(--off-color)
 }
 
+h3{
+  color: var(--off-color);  
+  text-shadow: -1px 1px 3px #000, 
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+}
 
 h3.subheading-member {
   margin-top: 1rem;
   margin-bottom: 0;
-  color: var(--off-color);
   text-align: left;
   font-weight: 300;
   font-variant: normal;
@@ -114,7 +146,7 @@ p.paragraph.paragraph-member {
   line-height: 26px;
 }
 
-p.paragraph.history-paragraph {
+.history-paragraph {
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
@@ -125,7 +157,7 @@ ul.unorder-list.always-hide {
   display: none;
 }
 
-a.link-text.text-link-card {
+.text-link-card {
   margin-right: 1rem;
   margin-left: 0;
   color: var(--accent-color);
@@ -150,6 +182,10 @@ a.link-text.nav-link {
   margin-bottom: 15%;
   margin-left: 2rem;
   color: var(--off-color);
+  text-shadow: -1px 1px 3px #000, 
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
   text-align: center;
   font-weight: 500;
   font-size: 52px;
@@ -658,6 +694,7 @@ button.form-button {
   background-repeat: no-repeat;
 
   background-blend-mode: normal;
+  box-shadow: -2px 1px black;
 }
 
 .container-grid.container-3 {
@@ -938,6 +975,60 @@ div.responsive-picture.history-picture:hover {
   font-size: 1em;
 }
 
+.review-section
+{
+  height: fit-content;
+  background-image: -webkit-linear-gradient(bottom, var(--background-color) 0%, var(--off-background-color) 100%);
+  background-image:    -moz-linear-gradient(bottom, var(--background-color) 0%, var(--off-background-color) 100%);
+  background-image:      -o-linear-gradient(bottom, var(--background-color) 0%, var(--off-background-color) 100%);
+  background-image:         linear-gradient(0deg, var(--background-color) 0%, var(--off-background-color) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 5em;
+}
+
+.review-card{
+  width: 75%;
+  height: 25%;
+  max-height: 45vh;
+  border-radius: 2px;
+  border: solid black 1px;
+  background-color: var(--off-background-color);
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 1em 2em;
+  margin: auto;
+  overflow-y: auto;
+  position: relative;
+}
+
+.review-card .avatar-img{
+  width: 5vw;
+  height: 5vw;
+}
+
+.right-review-button {
+  position: relative;
+  top: -25vh;
+  width: 10vw;
+  height: 10vw;
+  right: -65vw;
+}
+
+.left-review-button {
+  position: relative;
+  top: -25vh;
+  width: 10vw;
+  height: 10vw;
+  right: 5vw;
+} 
 
 @media screen and (min-width: 22.5rem) {
   /* Text Elements */

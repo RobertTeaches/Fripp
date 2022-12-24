@@ -6,19 +6,19 @@ window.addEventListener('load', function() {
     let offPicker = document.querySelector("#off-color")
     let opOffPicker = document.querySelector("#off-background-color")
     let pColor = getComputedStyle(document.querySelector(":root")).getPropertyValue("--primary-color")
-    pColor = pColor.substring(1)
+    // pColor = pColor.substring(1)
 
     let ofColor = getComputedStyle(document.querySelector(":root")).getPropertyValue("--off-color")
-    ofColor = ofColor.substring(1)
+    // ofColor = ofColor.substring(1)
     
     let opOfColor = getComputedStyle(document.querySelector(":root")).getPropertyValue("--off-background-color")
-    opOfColor = opOfColor.substring(1)
+    // opOfColor = opOfColor.substring(1)
     
     let opColor = getComputedStyle(document.querySelector(":root")).getPropertyValue("--background-color")
-    opColor = opColor.substring(1)
+    // opColor = opColor.substring(1)
 
     let aColor = getComputedStyle(document.querySelector(":root")).getPropertyValue("--accent-color")
-    aColor = aColor.substring(1)
+    //aColor = aColor.substring(1)
     
     pPicker.value = pColor 
     aPicker.value = aColor 
