@@ -26,6 +26,8 @@ window.onload = e =>
         adObserver.observe(views[i])
     }
 
+    congegrateReviews();
+
 }
 
 function handleVisibilityChange()
