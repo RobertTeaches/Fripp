@@ -48,7 +48,7 @@ function intersectionCallback(entries)
         const adBox = entry.target;
         if (entry.isIntersecting)
         {
-            if(!adBox.className.includes("fade"))
+            if (!adBox.className.includes("fade"))
             {
                 adBox.classList.add("fade")
             }
