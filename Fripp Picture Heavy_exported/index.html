@@ -67,24 +67,24 @@
       <!-- TODO: in PHP, load images dynamically from /images/carosaul_images/ -->
       <a href="#!" class="responsive-picture carousel-item full-width-item">
         <picture>
-          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/07.jpg">
+          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/carousel_images/07.jpg">
         </picture>
       </a>
       <a href="#!" class="responsive-picture carousel-item full-width-item">
         <picture>
-          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/04.jpg">
+          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/carousel_images/04.jpg">
         </picture>
       </a><a href="#!" class="responsive-picture carousel-item full-width-item">
         <picture>
-          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/03.jpg">
+          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/carousel_images/03.jpg">
         </picture>
       </a><a href="#!" class="responsive-picture carousel-item full-width-item">
         <picture>
-          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/01.jpg">
+          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/carousel_images/01.jpg">
         </picture>
       </a><a href="#!" class="responsive-picture carousel-item full-width-item">
         <picture>
-          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/02.jpg">
+          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/carousel_images/02.jpg">
         </picture>
       </a>
       <div class="html-element carousel-config">
@@ -121,7 +121,8 @@
           <div class="container-grid feature-pic-wrapper">
             <div class="responsive-picture css-feature-photo">
               <picture>
-                <img alt="Selectors with Classes and IDs" width="1600" height="1067" src="./images/02.jpg">
+                <img alt="Selectors with Classes and IDs" width="1600" height="1067"
+                  src="./images/carousel_images/02.jpg">
               </picture>
             </div>
           </div>
@@ -138,7 +139,7 @@
           <div class="container-grid feature-pic-wrapper feature-pic-flip">
             <div class="responsive-picture css-feature-photo">
               <picture>
-                <img alt="Reuse Existing Components" width="1600" height="1067" src="./images/03.jpg">
+                <img alt="Reuse Existing Components" width="1600" height="1067" src="./images/carousel_images/03.jpg">
               </picture>
             </div>
           </div>
@@ -155,7 +156,8 @@
         <div class="container-grid feature-pic-wrapper">
           <div class="responsive-picture css-feature-photo">
             <picture>
-              <img alt="Selectors with Classes and IDs" width="1600" height="1067" src="./images/02.jpg">
+              <img alt="Selectors with Classes and IDs" width="1600" height="1067"
+                src="./images/carousel_images/02.jpg">
             </picture>
           </div>
         </div>
@@ -166,7 +168,7 @@
       <h2 class="heading-yellow-section heading-left">The Island</h2>
       <div class="responsive-picture history-picture">
         <picture>
-          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/01.jpg">
+          <img alt="Placeholder Picture" width="1600" height="1067" src="./images/carousel_images/04.jpg">
         </picture>
       </div>
       <h2 class="paragraph history-paragraph big">Fripp is a cool island with cool stuff lorem lipsum golf nolf&nbsp;
@@ -183,23 +185,27 @@
     <h2 class="review-header">
       Read our Reviews
     </h2>
-    <div class="review-caresal" id="review-caresal">
-      <div class="review-card" id="original-card">
-        <!-- <img src="./images/c&s_logo.png" alt="" class="avatar-img"> -->
-        <p class="stars">5 Stars</p>
-        <p class="review-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatibus commodi
-          facilis perferendis deleniti pariatur hic eum similique sapiente eligendi, vitae aliquam dolore velit ut. In
-          id ex delectus rem! lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Sed voluptatem blanditiis itaque placeat minima assumenda Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit. Veniam labore sed sunt tempore facere suscipit inventore quam, nihil debitis
-          praesentium voluptate impedit? Quod veritatis eveniet excepturi explicabo assumenda consequuntur autem!facere
-          praesentium ullam nesciunt, fuga obcaecati asperiores cumque dignissimos culpa totam beatae et vitae ab.Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptates voluptatum sed minima, tenetur facere
-          quisquam assumenda provident est, non aut odio doloremque quidem voluptate molestias! Inventore modi quae
-          veritatis?</p>
+    <div class="row-layout">
+      <button class="review-button" onclick="showLast()">&larr;</button>
+      <div class="review-caresal" id="review-caresal">
+        <div class="review-card" id="original-card">
+          <!-- <img src="./images/c&s_logo.png" alt="" class="avatar-img"> -->
+          <p class="stars">5 Stars</p>
+          <p class="review-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatibus commodi
+            facilis perferendis deleniti pariatur hic eum similique sapiente eligendi, vitae aliquam dolore velit ut. In
+            id ex delectus rem! lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Sed voluptatem blanditiis itaque placeat minima assumenda Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Veniam labore sed sunt tempore facere suscipit inventore quam, nihil debitis
+            praesentium voluptate impedit? Quod veritatis eveniet excepturi explicabo assumenda consequuntur
+            autem!facere
+            praesentium ullam nesciunt, fuga obcaecati asperiores cumque dignissimos culpa totam beatae et vitae
+            ab.Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptates voluptatum sed minima, tenetur facere
+            quisquam assumenda provident est, non aut odio doloremque quidem voluptate molestias! Inventore modi quae
+            veritatis?</p>
+        </div>
       </div>
-      <button class="left-review-button"></button>
-      <button class="right-review-button"></button>
+      <button class="review-button" onclick="showNext()">&rarr;</button>
     </div>
   </div>
   <div class="container-grid container-personal-taylor" id="personal-taylor">
@@ -220,7 +226,7 @@
         <div class="container-grid card-image">
           <div class="responsive-picture card-image">
             <picture>
-              <img alt="Placeholder Picture" width="1600" height="1067" src="./images/01.jpg">
+              <img alt="Placeholder Picture" width="1600" height="1067" src="./images/carousel_images/01.jpg">
             </picture>
           </div>
           <h6 class="card-title">Article about Fripp</h6>
@@ -237,7 +243,7 @@
         <div class="container-grid card-image">
           <div class="responsive-picture card-image">
             <picture>
-              <img alt="Placeholder Picture" width="1600" height="1067" src="./images/04.jpg">
+              <img alt="Placeholder Picture" width="1600" height="1067" src="./images/carousel_images/04.jpg">
             </picture>
           </div>
           <h6 class="card-title">Article About Fripp<br></h6>
@@ -254,7 +260,7 @@
         <div class="container-grid card-image">
           <div class="responsive-picture card-image">
             <picture>
-              <img alt="Placeholder Picture" width="1600" height="1067" src="./images/07.jpg">
+              <img alt="Placeholder Picture" width="1600" height="1067" src="./images/carousel_images/07.jpg">
             </picture>
           </div>
           <h6 class="card-title">Article About Fripp<br></h6>

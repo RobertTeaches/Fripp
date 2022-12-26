@@ -1,4 +1,27 @@
 let startTransparency = {}
+
+//Hex conversion
+function componentToHex(c){
+    var hex = c.toString(16);
+    return hex.length == 1 ? "0" + hex : hex;
+}
+
+function rgbToHex(r,g,b){
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+}
+
+function hexToRGB(hex){
+    let values = hex.substring(1)
+    let r = values.substring(0,2)
+    let g = values.substring(2,4)
+    let b = values.substring(4,6)
+    r = parseInt(r, 16)
+    g = parseInt(g, 16)
+    b = parseInt(b, 16)
+
+    return `${r}, ${g}, ${b}`
+}
+
 window.addEventListener('load', function() {
     let pPicker = document.querySelector("#primary-color")
     let aPicker = document.querySelector("#accent-color")
@@ -19,6 +42,25 @@ window.addEventListener('load', function() {
 
     let aColor = getComputedStyle(document.querySelector(":root")).getPropertyValue("--accent-color")
     //aColor = aColor.substring(1)
+    // pColor = pColor.substring(4, pColor.length - 1)
+    pColor = pColor.split(",")
+    pColor = rgbToHex(parseInt(pColor[0]), parseInt(pColor[1]), parseInt(pColor[2]))
+
+    // aColor = aColor.substring(4, aColor.length - 1)
+    aColor = aColor.split(",")
+    aColor = rgbToHex(parseInt(aColor[0]), parseInt(aColor[1]), parseInt(aColor[2]))
+
+    // opColor = opColor.substring(4, opColor.length - 1)
+    opColor = opColor.split(",")
+    opColor = rgbToHex(parseInt(opColor[0]), parseInt(opColor[1]), parseInt(opColor[2]))
+
+    // ofColor = ofColor.substring(4, ofColor.length - 1)
+    ofColor = ofColor.split(",")
+    ofColor = rgbToHex(parseInt(ofColor[0]), parseInt(ofColor[1]), parseInt(ofColor[2]))
+
+    // opOfColor = opOfColor.substring(4, opOfColor.length - 1)
+    opOfColor = opOfColor.split(",")
+    opOfColor = rgbToHex(parseInt(opOfColor[0]), parseInt(opOfColor[1]), parseInt(opOfColor[2]))
     
     pPicker.value = pColor 
     aPicker.value = aColor 
@@ -30,7 +72,8 @@ window.addEventListener('load', function() {
 function colorUpdate(input) {
     // console.log(input.value)
     let cssVar = "--" + input.id
-    document.querySelector(":root").style.setProperty(cssVar, input.value)
+    let rgbS = hexToRGB(input.value)
+    document.querySelector(":root").style.setProperty(cssVar, rgbS)
 }
 
 function saveColors()
@@ -43,4 +86,4 @@ function saveColors()
     }
     navigator.clipboard.writeText(output);
     console.log(output)
-}
+} 
