@@ -25,3 +25,13 @@ if(!$review) {
     log_error("Review not set");
     return;
 }
+
+
+
+//Confirm that $email was used to book a previous stay
+
+//Confirm that previous stay booked by email was attented by guest
+
+//Connect posted review to associated booking via email, going with most recent booking as default
+
+//Add review to pending queue for checking/confirmation before posting to open database

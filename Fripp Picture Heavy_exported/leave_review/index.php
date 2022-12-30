@@ -17,10 +17,9 @@
     <!-- <script>document.createElement( "picture" );</script> -->
     <!-- <script class="picturefill" async="async" src="js/picturefill.min.js"></script> -->
     <link rel="stylesheet" href="css/main.css">
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/reviews.js"></script>
-    <script src="./js/color-picker.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="/leave_review/index.js"></script>
 </head>
 
 <body class="body-1 no-js">
@@ -32,7 +31,7 @@
     <div class="container-grid container-leave-review" id="contact">
         <div class="container-grid contact-form-region"><span class="glyph contact-icon"><i class="coffeecup-icons-mailbox"></i></span>
             <h2 class="heading-contact">Leave A Review!</h2>
-            <form class="form-container contact-form" method="post" action="/leave_review/post-review.php">
+            <form class="form-container contact-form" method="post" action="javascript:postReview(this)">
                 <input value="" name="text-name" type="text" class="input">
                 <label class="label label-input">Name</label>
                 <input value="" name="stars-name" type="number" class="number">
