@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="css/wireframe-theme.min.css">
   <!-- <script>document.createElement( "picture" );</script> -->
   <!-- <script class="picturefill" async="async" src="js/picturefill.min.js"></script> -->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css?v=<?php md5_file("css/main.css")?>">
   <script src="./js/jquery.min.js"></script>
-  <script src="./js/main.js"></script>
-  <script src="./js/reviews.js"></script>
-  <script src="./js/color-picker.js"></script>
+  <script src="./js/main.js?v=<?php md5_file("./js/main.js")?>"></script>
+  <script src="./js/reviews.js?v=<?php md5_file("./js/reviews.js")?>"></script>
+  <script src="./js/color-picker.js?v=<?php md5_file("./js/color-picker.js")?>"></script>
 </head>
 
 <body class="body-1 no-js">
