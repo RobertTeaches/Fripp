@@ -38,7 +38,7 @@ section:last-child {
 #hero {
     position: relative;
     height: 400px;
-    background-image: url("hero-background.jpg");
+    background-image: url("image/hero.png");
     background-size: cover;
     background-position: center;
 }
