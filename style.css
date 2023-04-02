@@ -1,0 +1,273 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.jumbotron {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.rental-overview {
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rental-overview p {
+    margin: 0;
+    flex: 1 1 50%;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.house-amenities {
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.house-amenities ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.house-amenities li {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 33%;
+}
+
+.house-photos {
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.house-photos img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.reviews {
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.reviews h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex: 1 1 100%;
+}
+
+
+.review-card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-card h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.review-card p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    flex: 1 0 auto;
+}
+
+.review-card small {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.fripp-island-overview {
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fripp-island-overview p {
+    margin: 0;
+    padding: 0;
+    flex: 1 1 50%;
+    text-align: justify;
+}
+
+.popout-articles {
+    margin-top: 50px;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.popout-articles .article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.popout-articles h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.popout-articles p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    flex: 1 0 auto;
+}
+
+.renter-login {
+    margin-top: 50px;
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.renter-login form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.renter-login input[type="text"],
+.renter-login input[type="email"],
+.renter-login input[type="password"] {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1 1 50%;
+    max-width: 300px;
+}
+
+.renter-login input[type="submit"] {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077be;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.renter-login input[type="submit"]:hover {
+    background-color: #005fa3;
+}
+
+@media screen and (max-width: 768px) {
+    .rental-overview p {
+        flex: 1 1 100%;
+    }
+
+    .house-amenities li {
+        flex: 1 1 50%;
+    }
+
+    .house-photos img {
+        flex: 1 1 50%;
+    }
+
+    .review-card {
+        flex: 1 1 50%;
+    }
+
+    .fripp-island-overview p {
+        flex: 1 1 100%;
+    }
+
+    .popout-articles .article {
+        flex: 1 1 100%;
+    }
+}
