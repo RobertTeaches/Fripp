@@ -299,7 +299,6 @@ section:last-child {
   }
   
   .review-item {
-    opacity: 0;
     position: relative;
     top: 0;
     left: 0;
