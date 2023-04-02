@@ -115,10 +115,13 @@ section {
  @keyframes zoom{
     0% {
       transform: scale(1);
+      /* Make the element unselectable */
+        pointer-events: none;
     }
     100% {
       transform: scale(1.2);
       z-index: 1;
+      pointer-events: all;
     }
  }
  @keyframes unzoom{
