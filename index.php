@@ -55,10 +55,10 @@
             <div class="container">
                 <h2 id="house-photos-title">House Photos</h2>
                 <div id="house-photos">
-                    <img src="house-photo-1.jpg" alt="House Photo">
-                    <img src="house-photo-2.jpg" alt="House Photo">
-                    <img src="house-photo-3.jpg" alt="House Photo">
-                    <img src="house-photo-4.jpg" alt="House Photo">
+                    <img src="/image/house-photo-1.jpg" alt="House Photo">
+                    <img src="/image/house-photo-2.jpg" alt="House Photo">
+                    <img src="/image/house-photo-3.jpg" alt="House Photo">
+                    <img src="/image/house-photo-4.jpg" alt="House Photo">
                 </div>
             </div>
         </section>
