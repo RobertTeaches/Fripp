@@ -104,6 +104,8 @@ section {
     margin: 0 auto;
   }
 
+  /* Play an animation named zoom for 500ms, then stay at the end of the animation. */
+  
   .photo-item:hover {
     animation: zoom 500ms ease-in-out;
   }
@@ -111,10 +113,10 @@ section {
   /* Create a keyframe that scales the element by 1.2, and sets the z-index to be on top of */
     /* the other elements */
  @keyframes zoom{
-    from {
+    0% {
       transform: scale(1);
     }
-    to {
+    100% {
       transform: scale(1.2);
       z-index: 1;
     }
