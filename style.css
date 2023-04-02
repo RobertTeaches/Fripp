@@ -270,58 +270,104 @@ section:last-child {
 }
 
 /* REVIEWS */
-.reviews {
-    margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+#reviews {
+    background-color: #f7f7f7;
+  }
+  
+  .review-card {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    position: relative;
+  }
+  
+  .review-header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.reviews h2 {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    flex: 1 1 100%;
-}
-
-
-.review-card {
-    margin: 20px;
-    padding: 20px;
-    background-color: #f7f7f7;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    flex: 1 1 25%;
+    margin-bottom: 20px;
+  }
+  
+  .review-header svg {
+    margin-right: 10px;
+  }
+  
+  .review-body {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .review-item {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .review-item.active {
+    opacity: 1;
+  }
+  
+  .review-content {
+    height: calc(100% - 60px);
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.review-card h3 {
-    margin: 0;
-    padding: 0;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.2;
-}
-
-.review-card p {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .review-content p {
+    font-size: 1.2rem;
     line-height: 1.5;
-    text-align: justify;
-    flex: 1 0 auto;
-}
-
-.review-card small {
-    font-size: 14px;
-    font-style: italic;
-}
+    margin: 0;
+  }
+  
+  .review-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .review-meta p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .review-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .prev-btn, .next-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .prev-btn:hover, .next-btn:hover {
+    opacity: 0.7;
+  }
+  
+  .prev-btn[disabled], .next-btn[disabled] {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  .prev-btn svg, .next-btn svg {
+    width: 24px;
+    height: 24px;
+  }
+  
 
 /* FRIPP OVERVIEW    */
 #fripp-overview {

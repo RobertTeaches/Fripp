@@ -161,34 +161,67 @@
             </div>
         </section>
 
-        <section id="reviews" class="reviews">
+        <section id="reviews">
             <div class="container">
-                <h2 id="reviews-title">Reviews</h2>
-                <div id="reviews-container">
-                    <div class="review-card">
-                        <h3>Great Condo, Great Views!</h3>
-                        <p>We loved our stay at this Fripp Island condo. The condo was clean, well-equipped, and had amazing views of the ocean. The resort amenities were great, and we enjoyed the pools and the golf course. We would definitely stay here again!</p>
-                        <small>- John and Lisa M.</small>
+                <h2>Reviews</h2>
+                <div class="review-card">
+                    <div class="review-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0072c6" width="24px" height="24px">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M5 5h14v2H5z" />
+                            <path d="M5 9h14v2H5z" />
+                            <path d="M5 13h14v2H5z" />
+                            <path d="M5 17h14v2H5z" />
+                        </svg>
+                        <h3>Guestbook Reviews</h3>
                     </div>
-                    <div class="review-card">
-                        <h3>Perfect for a Family Vacation</h3>
-                        <p>We had a wonderful time at this Fripp Island condo. The condo was spacious, clean, and had everything we needed for a comfortable stay. The resort amenities were great, and our kids loved the pools and the beach. We would highly recommend this condo to anyone looking for a peaceful and relaxing vacation.</p>
-                        <small>- The Smith Family</small>
+                    <div class="review-body">
+                        <div class="review-item active">
+                            <div class="review-content">
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit quis augue bibendum fringilla."</p>
+                            </div>
+                            <div class="review-meta">
+                                <p>John Doe</p>
+                                <p>July 2022</p>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-content">
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit quis augue bibendum fringilla."</p>
+                            </div>
+                            <div class="review-meta">
+                                <p>Jane Smith</p>
+                                <p>June 2022</p>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-content">
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit quis augue bibendum fringilla."</p>
+                            </div>
+                            <div class="review-meta">
+                                <p>Bob Johnson</p>
+                                <p>May 2022</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="review-card">
-                        <h3>Amazing Ocean Views</h3>
-                        <p>This condo has some of the best ocean views we've ever seen. The condo was clean and comfortable, and had everything we needed for a great stay. The resort amenities were also great, and we enjoyed playing golf and tennis. We would definitely stay here again!</p>
-                        <small>- The Jones Family</small>
-                    </div>
-                    <div class="review-card">
-                        <h3>Relaxing Getaway</h3>
-                        <p>We had a wonderful time at this Fripp Island condo. The condo was clean and comfortable, and had everything we needed for a relaxing vacation. The resort amenities were great, and we enjoyed the pools and the beach. We would definitely stay here again!</p>
-                        <small>- The Brown Family</small>
+                    <div class="review-footer">
+                        <button class="btn-secondary prev-btn" disabled>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0072c6" width="24px" height="24px">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L9.83 12H20V10H9.83l5.58-5.59z" />
+                            </svg>
+                        </button>
+                        <button class="btn-secondary next-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0072c6" width="24px" height="24px">
+                                <path d="M0 0h24v24H0z" fill="none" />
+                                <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L14.17 12H4v2h10.17l-5.58 5.59z" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
-                <a href="#" class="btn btn-primary">View All Reviews</a>
             </div>
         </section>
+
         <section id="fripp-overview">
             <div class="container">
                 <div class="fripp-card">
