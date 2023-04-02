@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fripp Island Vacation Rental Condo</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
-    <link rel="stylesheet" href="style.css<?php echo md5_file('style.css'); ?>">
+    <link rel="stylesheet" href="style.css?v=<?php echo md5_file('style.css'); ?>">
 </head>
 
 <body>
