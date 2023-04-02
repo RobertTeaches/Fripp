@@ -30,14 +30,34 @@
                 <a id="hero-button" href="#rental-overview" class="btn btn-primary">Learn More</a>
             </div>
         </section>
-        <section id="rental-overview" class="rental-overview">
+        <section id="rental-overview">
             <div class="container">
-                <h2 id="rental-overview-title">Rental Overview</h2>
-                <p id="rental-overview-description-1">Our Fripp Island vacation rental condo is located on the oceanfront with panoramic views of the Atlantic Ocean. The condo features 2 bedrooms, 2 bathrooms, a fully equipped kitchen, and a spacious living room with comfortable seating for all guests. The condo also includes a private balcony with seating and ocean views.</p>
-                <p id="rental-overview-description-2">Guests have access to all of the resort amenities, including swimming pools, tennis courts, golf courses, and a marina. The resort also offers a variety of dining options, from casual to fine dining.</p>
-                <a id="rental-overview-button" href="#house-amenities" class="btn btn-primary">View Amenities</a>
+                <div class="rental-card">
+                    <div class="rental-image">
+                        <img src="rental-image.jpg" alt="Rental Image">
+                    </div>
+                    <div class="rental-content">
+                        <div class="rental-section rental-section-1">
+                            <h3>Location</h3>
+                            <p>123 Ocean Drive, Fripp Island, SC</p>
+                        </div>
+                        <div class="rental-section rental-section-2">
+                            <h3>Bedrooms</h3>
+                            <p>4 bedrooms with queen beds</p>
+                        </div>
+                        <div class="rental-section rental-section-3">
+                            <h3>Bathrooms</h3>
+                            <p>3 bathrooms</p>
+                        </div>
+                        <div class="rental-section rental-section-4">
+                            <h3>Max Occupancy</h3>
+                            <p>8 people</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
         <section id="house-amenities">
             <div class="container">
                 <h2>House Amenities</h2>

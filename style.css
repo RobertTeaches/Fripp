@@ -174,6 +174,59 @@ section:last-child {
     }
 }
 
+#rental-overview {
+    background-color: #f7f7f7;
+  }
+  
+  .rental-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .rental-image {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .rental-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .rental-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .rental-section {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+  }
+  
+  .rental-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .rental-section p {
+    margin: 0;
+  }
+  
+
 #house-amenities {
     background-color: #fff;
 }
