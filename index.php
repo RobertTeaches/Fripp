@@ -36,20 +36,65 @@
                 <a id="rental-overview-button" href="#house-amenities" class="btn btn-primary">View Amenities</a>
             </div>
         </section>
-        <section id="house-amenities" class="house-amenities">
+        <section id="house-amenities">
             <div class="container">
-                <h2 id="amen-title">House Amenities</h2>
-                <ul id="house-amenities">
-                    <li>2 Bedrooms</li>
-                    <li>2 Bathrooms</li>
-                    <li>Fully Equipped Kitchen</li>
-                    <li>Living Room with Ocean Views</li>
-                    <li>Private Balcony</li>
-                    <li>Wireless Internet</li>
-                    <li>Cable TV</li>
-                    <li>Washer and Dryer</li>
-                    <li>Central Air Conditioning</li>
-                </ul>
+                <h2>House Amenities</h2>
+                <div class="amenities-grid">
+                    <div class="amenities-card">
+                        <div class="amenities-icon">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <div class="amenities-content">
+                            <h3>Bedrooms</h3>
+                            <p>4 bedrooms with queen beds, sleeps 8 people.</p>
+                        </div>
+                    </div>
+                    <div class="amenities-card">
+                        <div class="amenities-icon">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                        <div class="amenities-content">
+                            <h3>Internet</h3>
+                            <p>High-speed Wi-Fi is available throughout the house.</p>
+                        </div>
+                    </div>
+                    <div class="amenities-card">
+                        <div class="amenities-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div class="amenities-content">
+                            <h3>Kitchen</h3>
+                            <p>Fully-equipped kitchen with stove, oven, refrigerator, and dishwasher.</p>
+                        </div>
+                    </div>
+                    <div class="amenities-card">
+                        <div class="amenities-icon">
+                            <i class="fas fa-swimming-pool"></i>
+                        </div>
+                        <div class="amenities-content">
+                            <h3>Pool</h3>
+                            <p>Private outdoor pool with lounge chairs and pool toys.</p>
+                        </div>
+                    </div>
+                    <div class="amenities-card">
+                        <div class="amenities-icon">
+                            <i class="fas fa-tv"></i>
+                        </div>
+                        <div class="amenities-content">
+                            <h3>Entertainment</h3>
+                            <p>Large-screen TV with cable, DVD player, and board games.</p>
+                        </div>
+                    </div>
+                    <div class="amenities-card">
+                        <div class="amenities-icon">
+                            <i class="fas fa-washer"></i>
+                        </div>
+                        <div class="amenities-content">
+                            <h3>Laundry</h3>
+                            <p>Washer and dryer available for use.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="house-photos">
