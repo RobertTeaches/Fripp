@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="rental-card">
                     <div class="rental-image">
-                        <img src="rental-image.jpg" alt="Rental Image">
+                        <img src="image/rental-photo.jpg" alt="Rental Image">
                     </div>
                     <div class="rental-content">
                         <div class="rental-section rental-section-1">
