@@ -21,12 +21,20 @@ section {
   }
   
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Remove top and bottom margin from all containers */
+  .container * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
 .jumbotron {
     background-image: url('image/hero.png');
     background-size: cover;
