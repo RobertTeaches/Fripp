@@ -142,7 +142,7 @@ section {
     width: calc(50% - 20px);
     position: relative;
     cursor: pointer;
-    animation: unzoom 500ms ease-in-out forwards;
+    animation: unzoom 100ms ease-in-out forwards;
   }
   
   .photo-item::before {
