@@ -34,7 +34,7 @@ section:last-child {
     margin-top: 0;
     margin-bottom: 0;
 }
-
+/* HERO */
 #hero {
     position: relative;
     height: 400px;
@@ -72,6 +72,9 @@ section:last-child {
     margin-bottom: 40px;
 }
 
+/* END HERO */
+
+/* BTN-PRIMARY */
 .btn-primary {
     display: inline-block;
     font-size: 1.5rem;
@@ -86,52 +89,7 @@ section:last-child {
     background-color: #005aa1;
 }
 
-.rental-overview {
-    margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.rental-overview p {
-    margin: 0;
-    flex: 1 1 50%;
-    padding: 0 20px;
-    text-align: justify;
-}
-
-.house-amenities {
-    margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.house-amenities ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.house-amenities li {
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-    flex: 1 1 33%;
-}
-
+/* HOUSE PHOTOS */
 #house-photos {
     background-color: #f7f7f7;
 }
@@ -214,6 +172,7 @@ section:last-child {
     }
 }
 
+/* RENTAL OVERVIEW */
 #rental-overview {
     background-color: #f7f7f7;
 }
@@ -266,7 +225,7 @@ section:last-child {
     margin: 0;
 }
 
-
+/* HOUSE AMENITIES */
 #house-amenities {
     background-color: #fff;
 }
@@ -307,6 +266,7 @@ section:last-child {
     }
 }
 
+/* REVIEWS */
 .reviews {
     margin-top: 50px;
     padding: 50px 0;
@@ -359,6 +319,7 @@ section:last-child {
     font-size: 14px;
     font-style: italic;
 }
+
 
 .fripp-island-overview {
     margin-top: 50px;
