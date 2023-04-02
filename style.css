@@ -103,7 +103,11 @@ section {
     max-width: 1200px;
     margin: 0 auto;
   }
-  
+
+  .photo-item:hover img {
+    transform: scale(1.2);
+  }
+
   .photo-item {
     margin: 10px;
     overflow: hidden;
@@ -114,6 +118,12 @@ section {
     cursor: pointer;
   }
   
+  .photo-item::before {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+  
   .photo-item img {
     position: absolute;
     top: 0;
@@ -122,10 +132,6 @@ section {
     height: 100%;
     transition: transform 0.3s ease-in-out;
     object-fit: cover;
-  }
-  
-  .photo-item:hover img {
-    transform: scale(1.2);
   }
   
   /* If there are more than 6 photos, create a new grid */
