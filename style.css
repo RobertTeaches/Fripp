@@ -319,7 +319,10 @@ section:last-child {
     align-items: center;
     text-align: center;
     padding: 0 20px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
   }
+  
   
   .review-content p {
     font-size: 1.2rem;
