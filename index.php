@@ -52,17 +52,44 @@
                 </ul>
             </div>
         </section>
-        <section class="house-photos">
+        <section id="house-photos">
             <div class="container">
-                <h2 id="house-photos-title">House Photos</h2>
-                <div id="house-photos">
-                    <img src="image/house-photo-1.jpg" alt="House Photo">
-                    <img src="image/house-photo-2.jpg" alt="House Photo">
-                    <img src="image/house-photo-3.jpg" alt="House Photo">
-                    <img src="image/house-photo-4.jpg" alt="House Photo">
+                <h2>House Photos</h2>
+                <div class="photo-grid">
+                    <div class="photo-item">
+                        <a href="img/house-photo-1.jpg" target="_blank">
+                            <img src="img/house-photo-1.jpg" alt="House photo 1">
+                        </a>
+                    </div>
+                    <div class="photo-item">
+                        <a href="img/house-photo-2.jpg" target="_blank">
+                            <img src="img/house-photo-2.jpg" alt="House photo 2">
+                        </a>
+                    </div>
+                    <div class="photo-item">
+                        <a href="img/house-photo-3.jpg" target="_blank">
+                            <img src="img/house-photo-3.jpg" alt="House photo 3">
+                        </a>
+                    </div>
+                    <div class="photo-item">
+                        <a href="img/house-photo-4.jpg" target="_blank">
+                            <img src="img/house-photo-4.jpg" alt="House photo 4">
+                        </a>
+                    </div>
+                    <div class="photo-item">
+                        <a href="img/house-photo-5.jpg" target="_blank">
+                            <img src="img/house-photo-5.jpg" alt="House photo 5">
+                        </a>
+                    </div>
+                    <div class="photo-item">
+                        <a href="img/house-photo-6.jpg" target="_blank">
+                            <img src="img/house-photo-6.jpg" alt="House photo 6">
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
+
         <section id="reviews" class="reviews">
             <div class="container">
                 <h2 id="reviews-title">Reviews</h2>
@@ -99,7 +126,7 @@
             </div>
         </section>
         <section class="popout-articles">
-            <div id="articles-container"class="container">
+            <div id="articles-container" class="container">
                 <div class="article">
                     <h3>Explore the Beaches of Fripp Island</h3>
                     <p>Fripp Island is home to some of the most beautiful beaches in the Lowcountry. From secluded coves to wide stretches of sand, there is a beach for everyone on Fripp Island.</p>
