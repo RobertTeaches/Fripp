@@ -11,11 +11,12 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="nav-bar">
+            <ul class="nav-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
+                <li><img src="" alt="" class="nav-logo"></li>
             </ul>
         </nav>
     </header>
