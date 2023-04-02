@@ -427,6 +427,7 @@ section:last-child {
   }
   
 
+/* FRIPP ARTICLES */
   #fripp-articles {
     background-color: #fff;
     padding: 60px 0;
@@ -511,53 +512,77 @@ section:last-child {
 }
   
 
+/* FRIPP Renter LOGIN */
 .renter-login {
-    margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.renter-login form {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.renter-login input[type="text"],
-.renter-login input[type="email"],
-.renter-login input[type="password"] {
-    margin: 10px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    flex: 1 1 50%;
-    max-width: 300px;
-}
-
-.renter-login input[type="submit"] {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
     background-color: var(--primary-color);
+    padding: 60px 0;
+  }
+  
+  .renter-login h2 {
     color: var(--secondary-color);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.renter-login input[type="submit"]:hover {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .renter-form {
     background-color: var(--primary-off-color);
-}
+    padding: 40px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .renter-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+  }
+  
+  .renter-form input[type="text"],
+  .renter-form input[type="email"],
+  .renter-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .renter-form input[type="submit"] {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .renter-form input[type="submit"]:hover {
+    background-color: var(--primary-color);
+  }
+  @media screen and (max-width: 767px) {
+    .renter-form {
+      padding: 20px;
+    }
+  
+    .renter-form label {
+      font-size: 14px;
+    }
+  
+    .renter-form input[type="text"],
+    .renter-form input[type="email"],
+    .renter-form input[type="password"] {
+      font-size: 14px;
+    }
+  
+    .renter-form input[type="submit"] {
+      font-size: 14px;
+    }
+  }
+  
 
 
 
@@ -630,3 +655,65 @@ section:last-child {
         flex: 1 1 100%;
     }
 }
+
+/* Mobile Styles */
+
+@media screen and (max-width: 767px) {
+    /* Hero Section */
+    .hero-content h1 {
+      font-size: 32px;
+      line-height: 1.2;
+    }
+    .hero-content h2 {
+      font-size: 20px;
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+    .btn-primary {
+      margin-top: 20px;
+      width:25%;
+      height: fit-content;
+      font-size: small;
+    }
+  
+    /* Rental Overview Section */
+    .rental-card {
+      flex-direction: column;
+    }
+    .rental-image {
+      margin-bottom: 20px;
+      top: -115px;
+      width: 20%;
+      min-width: 150px;
+      height: auto;
+      aspect-ratio: 1/1;
+    }
+    .rental-content {
+      margin-bottom: 20px;
+    }
+    .rental-info > * {
+      margin-bottom: 10px;
+    }
+  
+    /* Reviews Section */
+    #reviews {
+      padding-top: 60px;
+    }
+    .review-grid {
+      flex-direction: column;
+    }
+    .review-card {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .review-card:nth-child(even) {
+      margin-left: 0;
+    }
+    .review-card:nth-child(odd) {
+      margin-right: 0;
+    }
+    .review-image {
+      display: none;
+    }
+  }
+  
