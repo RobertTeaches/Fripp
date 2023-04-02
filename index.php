@@ -189,13 +189,21 @@
                 <a href="#" class="btn btn-primary">View All Reviews</a>
             </div>
         </section>
-        <section id="fripp-island-overview" class="fripp-island-overview">
+        <section id="fripp-overview">
             <div class="container">
-                <h2>Fripp Island Overview</h2>
-                <p>Fripp Island is a beautiful barrier island located in the Lowcountry of South Carolina. The island is known for its natural beauty, pristine beaches, and abundant wildlife. Fripp Island is a popular destination for families and couples looking for a peaceful and relaxing getaway.</p>
-                <a href="#" class="btn btn-primary">Learn More About Fripp Island</a>
+                <div class="fripp-card">
+                    <div class="fripp-image">
+                        <img src="image/hero.png" alt="Fripp Island Image">
+                    </div>
+                    <div class="fripp-content">
+                        <h2>Fripp Island Overview</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit quis augue bibendum fringilla.</p>
+                        <a href="#" class="btn-secondary">Learn More</a>
+                    </div>
+                </div>
             </div>
         </section>
+
         <section class="popout-articles">
             <div id="articles-container" class="container">
                 <div class="article">

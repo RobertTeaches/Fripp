@@ -323,24 +323,60 @@ section:last-child {
     font-style: italic;
 }
 
-
-.fripp-island-overview {
-    margin-top: 50px;
-    padding: 50px 0;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+/* FRIPP OVERVIEW    */
+#fripp-overview {
+    background-color: #fff;
+  }
+  
+  .fripp-card {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-}
-
-.fripp-island-overview p {
-    margin: 0;
-    padding: 0;
-    flex: 1 1 50%;
-    text-align: justify;
-}
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .fripp-image {
+    flex-basis: 30%;
+    overflow: hidden;
+  }
+  
+  .fripp-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .fripp-content {
+    flex-basis: 70%;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .fripp-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .fripp-content p {
+    margin-bottom: 30px;
+  }
+  
+  .btn-secondary {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px 40px;
+    border: none;
+    background-color: #0072c6;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #005aa1;
+  }
+  
 
 .popout-articles {
     margin-top: 50px;
