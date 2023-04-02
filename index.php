@@ -57,33 +57,33 @@
                 <h2>House Photos</h2>
                 <div class="photo-grid">
                     <div class="photo-item">
-                        <a href="img/house-photo-1.jpg" target="_blank">
-                            <img src="img/house-photo-1.jpg" alt="House photo 1">
+                        <a href="image/house-photo-1.jpg" target="_blank">
+                            <img src="image/house-photo-1.jpg" alt="House photo 1">
                         </a>
                     </div>
                     <div class="photo-item">
-                        <a href="img/house-photo-2.jpg" target="_blank">
-                            <img src="img/house-photo-2.jpg" alt="House photo 2">
+                        <a href="image/house-photo-2.jpg" target="_blank">
+                            <img src="image/house-photo-2.jpg" alt="House photo 2">
                         </a>
                     </div>
                     <div class="photo-item">
-                        <a href="img/house-photo-3.jpg" target="_blank">
-                            <img src="img/house-photo-3.jpg" alt="House photo 3">
+                        <a href="image/house-photo-3.jpg" target="_blank">
+                            <img src="image/house-photo-3.jpg" alt="House photo 3">
                         </a>
                     </div>
                     <div class="photo-item">
-                        <a href="img/house-photo-4.jpg" target="_blank">
-                            <img src="img/house-photo-4.jpg" alt="House photo 4">
+                        <a href="image/house-photo-4.jpg" target="_blank">
+                            <img src="image/house-photo-4.jpg" alt="House photo 4">
                         </a>
                     </div>
                     <div class="photo-item">
-                        <a href="img/house-photo-5.jpg" target="_blank">
-                            <img src="img/house-photo-5.jpg" alt="House photo 5">
+                        <a href="image/house-photo-5.jpg" target="_blank">
+                            <img src="image/house-photo-5.jpg" alt="House photo 5">
                         </a>
                     </div>
                     <div class="photo-item">
-                        <a href="img/house-photo-6.jpg" target="_blank">
-                            <img src="img/house-photo-6.jpg" alt="House photo 6">
+                        <a href="image/house-photo-6.jpg" target="_blank">
+                            <img src="image/house-photo-6.jpg" alt="House photo 6">
                         </a>
                     </div>
                 </div>
