@@ -105,8 +105,20 @@ section {
   }
 
   .photo-item:hover {
-    transform: scale(1.2);
+    animation: zoom 500ms ease-in-out;
   }
+
+  /* Create a keyframe that scales the element by 1.2, and sets the z-index to be on top of */
+    /* the other elements */
+ @keyframes zoom{
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+      z-index: 1;
+    }
+ }
 
   .photo-item {
     margin: 10px;
