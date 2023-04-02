@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fripp Island Vacation Rental Condo</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css<?php echo md5_file('style.css'); ?>">
 </head>
 
 <body>
@@ -55,10 +55,10 @@
             <div class="container">
                 <h2 id="house-photos-title">House Photos</h2>
                 <div id="house-photos">
-                    <img src="/image/house-photo-1.jpg" alt="House Photo">
-                    <img src="/image/house-photo-2.jpg" alt="House Photo">
-                    <img src="/image/house-photo-3.jpg" alt="House Photo">
-                    <img src="/image/house-photo-4.jpg" alt="House Photo">
+                    <img src="image/house-photo-1.jpg" alt="House Photo">
+                    <img src="image/house-photo-2.jpg" alt="House Photo">
+                    <img src="image/house-photo-3.jpg" alt="House Photo">
+                    <img src="image/house-photo-4.jpg" alt="House Photo">
                 </div>
             </div>
         </section>
