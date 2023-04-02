@@ -306,10 +306,11 @@ section:last-child {
     width: 100%;
     height: 100%;
     transition: opacity 0.3s ease-in-out;
+    display: none;
   }
   
   .review-item.active {
-    opacity: 1;
+    display: flex;
   }
   
   .review-content {
