@@ -23,13 +23,17 @@
         </nav>
     </header>
     <main>
-        <section class="jumbotron">
+        <section id="hero">
+            <div class="hero-overlay"></div>
             <div class="container">
-                <h1 id="hero-title">Welcome to Our Fripp Island Vacation Rental Condo</h1>
-                <p id="hero-description">Relax and enjoy the breathtaking ocean view from our beautiful condo. Perfect for families or couples looking for a peaceful getaway.</p>
-                <a id="hero-button" href="#rental-overview" class="btn btn-primary">Learn More</a>
+                <div class="hero-content">
+                    <h1>Your Dream Vacation</h1>
+                    <h2>Experience Luxury on Fripp Island</h2>
+                    <a href="#" class="btn-primary">Book Now</a>
+                </div>
             </div>
         </section>
+
         <section id="rental-overview">
             <div class="container">
                 <div class="rental-card">
