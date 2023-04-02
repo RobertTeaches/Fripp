@@ -7,7 +7,9 @@
     <title>Fripp Island Vacation Rental Condo</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
     <link rel="stylesheet" href="style.css?v=<?php echo md5_file('style.css'); ?>">
+    <script src="https://kit.fontawesome.com/9885f75015.js" crossorigin="anonymous"></script>
 </head>
+
 
 <body>
     <header>
